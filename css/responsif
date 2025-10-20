@@ -1,0 +1,73 @@
+/* Responsif */
+@media (max-width: 992px) {
+  .sinopsis {
+    flex-direction: column;
+    text-align: center;
+  }
+
+  .slider {
+    max-width: 100%;
+    height: auto;
+  }
+
+  .slide img {
+    height: auto;
+  }
+}
+
+/* ====================
+   Responsif
+   ==================== */
+
+/* Tablet (768px ke bawah) */
+@media (max-width: 768px) {
+  .nav {
+    padding: 0 20px;
+    height: 65px;
+  }
+  .nav .nav-list a {
+    font-size: 14px;
+  }
+  .hero {
+    background: url("../img/hero-mobile.jpg");
+    position: relative;
+    height: 100vh;
+    display: flex;
+    align-items: center;
+    justify-items: center;
+    text-align: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+  }
+}
+
+/* Mobile (480px ke bawah) */
+@media (max-width: 480px) {
+  .nav {
+    flex-direction: column;
+    align-items: center;
+    height: auto;
+    padding: 10px 16px;
+  }
+
+  .nav img {
+    height: 32px;
+    margin-bottom: 8px;
+  }
+
+  .nav .nav-list {
+    flex-direction: row;
+    justify-content: center;
+    width: 100%;
+  }
+
+  .nav li {
+    margin: 4px 2px;
+  }
+
+  .nav .nav-list a {
+    font-size: 14px;
+    display: block;
+    width: 100%;
+  }
+}

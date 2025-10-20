@@ -1,0 +1,213 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>How To Train Your Dragon</title>
+    <link rel="stylesheet" href="css/style.css" />
+    <link
+      href="https://fonts.googleapis.com/css2?family=Cinzel+Decorative&display=swap"
+      rel="stylesheet"
+    />
+  </head>
+  <body>
+    <!-- Navbar -->
+    <header>
+      <nav class="nav">
+        <div>
+          <a href="#">
+            <img src="img/logo.png" alt="" />
+          </a>
+        </div>
+        <ul class="nav-list">
+          <li><a href="#hero">Home</a></li>
+          <li><a href="#sinopsis">Sinopsis</a></li>
+          <li><a href="#series">Series</a></li>
+          <li><a href="#char">Character</a></li>
+          <li><a href="#">Gallery</a></li>
+        </ul>
+      </nav>
+    </header>
+
+    <!-- Hero -->
+    <section id="hero">
+      <div class="hero-content">
+        <img src="../img/logo1.png" alt="" />
+        <p>“Discover the epic bond between dragons and vikings”</p>
+        <a href="#sinopsis" class="btn-primary">Explore</a>
+      </div>
+    </section>
+
+    <!-- Section Sinopsis -->
+    <section id="sinopsis">
+      <div class="sinopsis-content">
+        <!-- Kiri: teks -->
+        <div class="sinopsis-text">
+          <h2>The Story of Berk</h2>
+          <p>
+            In the Viking village of Berk, young Hiccup defies tradition when he
+            befriends a feared dragon, the Night Fury. Together with his dragon
+            Toothless, he discovers that dragons are not the enemies his people
+            believe them to be, but loyal companions who can change the future
+            of their world.
+          </p>
+        </div>
+
+        <!-- Kanan: slider -->
+        <div class="slider">
+          <!-- Radio Buttons -->
+          <input type="radio" name="slide" id="slide1" checked />
+          <input type="radio" name="slide" id="slide2" />
+          <input type="radio" name="slide" id="slide3" />
+
+          <!-- Slides -->
+          <div class="slides">
+            <div class="slide"><img src="../img/map.png" alt="map1" /></div>
+            <div class="slide"><img src="../img/berk1.png" alt="map2" /></div>
+            <div class="slide"><img src="../img/berk2.png" alt="map3" /></div>
+          </div>
+
+          <!-- Navigation manual -->
+          <div class="navigation-manual">
+            <label for="slide1" class="manual-btn"></label>
+            <label for="slide2" class="manual-btn"></label>
+            <label for="slide3" class="manual-btn"></label>
+          </div>
+        </div>
+      </div>
+    </section>
+
+    <!-- Card Movie-->
+    <!-- Bagian card movies -->
+    <section id="series">
+      <h2 class="section-title">MOVIES</h2>
+      <div class="movie-container">
+        <div class="movie-card">
+          <img src="img/httyd1.jpg" alt="HTTYD 1" />
+          <h3>How To Train Your Dragon (2010)</h3>
+          <p>
+            Hiccup befriends Toothless and changes the relationship between
+            Vikings and dragons forever.
+          </p>
+        </div>
+
+        <div class="movie-card">
+          <img src="img/httyd2.jpeg" alt="HTTYD 2" />
+          <h3>How To Train Your Dragon 2 (2014)</h3>
+          <p>
+            Hiccup and Toothless discover an ice cave and face a powerful dragon
+            master threatening their peace.
+          </p>
+        </div>
+
+        <div class="movie-card">
+          <img src="img/httyd3.jpg" alt="HTTYD 3" />
+          <h3>How To Train Your Dragon: The Hidden World (2019)</h3>
+          <p>
+            As danger mounts, Hiccup and Toothless search for a hidden dragon
+            utopia before enemies find them.
+          </p>
+        </div>
+
+        <div class="movie-card">
+          <img src="img/httyd1.jpg" alt="HTTYD Homecoming" />
+          <h3>How To Train Your Dragon: Homecoming (2019)</h3>
+          <p>
+            A holiday special where Vikings honor their bond with dragons and
+            Toothless reunites with Hiccup’s family.
+          </p>
+        </div>
+      </div>
+    </section>
+
+<!-- =========================
+     CHARACTERS SECTION
+========================= -->
+<section id="characters">
+  <h2>CHARACTERS</h2>
+  <div class="char-grid">
+    <!-- Character 1 -->
+    <a href="#popup-hiccup" class="char">
+      <img src="img/characters/char1.png" alt="Hiccup">
+      <span>Hiccup</span>
+    </a>
+
+    <!-- Character 2 -->
+    <a href="#popup-toothless" class="char">
+      <img src="img/characters/char2.png" alt="Toothless">
+      <span>Toothless</span>
+    </a>
+
+    <!-- Character 3 -->
+    <a href="#popup-astrid" class="char">
+      <img src="img/characters/char3.png" alt="Astrid">
+      <span>Astrid</span>
+    </a>
+
+    <!-- Character 4 -->
+    <a href="#popup-stoick" class="char">
+      <img src="img/characters/dragon1.png" alt="Stoick">
+      <span>Stoick</span>
+    </a>
+  </div>
+</section>
+
+<!-- =========================
+     POPUPS (CSS ONLY)
+========================= -->
+<div id="popup-hiccup" class="popup">
+  <div class="popup-box">
+    <a href="#char" class="close">&times;</a>
+    <div class="popup-content">
+      <h3>Hiccup Horrendous Haddock III</h3>
+      <p>Putra kepala suku Berk yang cerdas dan berani. Hiccup dikenal karena persahabatannya dengan Toothless dan pandangannya yang damai terhadap naga.</p>
+    </div>
+    <img src="img/characters/char1.png" alt="Hiccup">
+  </div>
+</div>
+
+<div id="popup-toothless" class="popup">
+  <div class="popup-box">
+    <a href="#char" class="close">&times;</a>
+    <div class="popup-content">
+      <h3>Toothless</h3>
+      <p>Toothless adalah naga Night Fury yang cerdas, cepat, dan loyal. Ia adalah sahabat sejati Hiccup yang selalu melindungi Berk.</p>
+    </div>
+    <img src="img/characters/char2.png" alt="Toothless">
+  </div>
+</div>
+
+<div id="popup-astrid" class="popup">
+  <div class="popup-box">
+    <a href="#char" class="close">&times;</a>
+    <div class="popup-content">
+      <h3>Astrid Hofferson</h3>
+      <p>Seorang petarung tangguh dan sahabat dekat Hiccup. Astrid memiliki keberanian tinggi dan selalu siap beraksi di medan perang.</p>
+    </div>
+    <img src="img/characters/char3.png" alt="Astrid">
+  </div>
+</div>
+
+<div id="popup-stoick" class="popup">
+  <div class="popup-box">
+    <a href="#char" class="close">&times;</a>
+    <div class="popup-content">
+      <h3>Stoick the Vast</h3>
+      <p>Kepala suku Berk dan ayah Hiccup. Ia memiliki hati besar dan menjadi teladan bagi seluruh warga Berk.</p>
+    </div>
+    <img src="img/characters/dragon1.png" alt="Stoick">
+  </div>
+</div>
+
+
+    <!-- =========================
+         FOOTER
+    ========================== -->
+    <footer id="footer">
+      <p>
+        © 2025 Project — Inspired by DreamWorks’ How To Train Your Dragon<br />
+        Designed with by <span>Qiuu</span>
+      </p>
+    </footer>
+  </body>
+</html>
